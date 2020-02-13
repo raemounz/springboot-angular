@@ -1,0 +1,40 @@
+<mat-toolbar color="primary">
+  <mat-icon color="accent" class="logo">web</mat-icon>
+  {{title}}
+  <div fxFlex></div>
+  <span>build: {{built}}</span>
+</mat-toolbar>
+<div fxLayout=column class="main">
+  <div fxFlex></div>
+  <div fxLayout=row>
+    <div fxFlex></div>
+    <div fxLayout="column" style="margin: 0 20px;">
+      <div class="title">This project is built with:</div>
+      <div fxLayout=row class="item">
+        <img src="../assets/springio-icon.svg" />
+        <a href="https://start.spring.io" target="_blank" class="link">
+          Spring Boot
+        </a>
+      </div>
+      <div fxLayout="row" class="item">
+        <img src="../assets/angular-icon.svg" />
+        <a href="https://cli.angular.io" target="_blank" class="link">
+          Angular CLI
+        </a>
+      </div>
+      <div class="item"></div>
+      <div class="item">
+        It also includes the following:
+      </div>
+      <div class="item">
+        <a href="https://material.angular.io" target="_blank" class="link">Angular Material</a> - for material design components
+      </div>
+      <div class="item">
+        <a href="https://github.com/angular/flex-layout" target="_blank" class="link">Angular Flex-Layout</a> - for responsive UI layout
+      </div>
+    </div>
+    <div fxFlex></div>
+  </div>
+  <div fxFlex></div>
+</div>
+<router-outlet></router-outlet>
