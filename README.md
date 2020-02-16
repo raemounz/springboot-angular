@@ -1,4 +1,4 @@
-#Spring Boot and Angular
+# Spring Boot and Angular
 
 This is a seed project using Spring Boot for backend and Angular for frontend.
 
@@ -14,10 +14,10 @@ The project uses the following:
 - Angular Material for material design components
 - Angular Flex-Layout for responsive UI layout
 
-##Preview
+## Preview
 ![Spring Boot and Angular Preview](ui/src/assets/preview.png)
 
-##Build
+## Build
 
 To build the project for staging, run `mvn clean install -Pnpm-build-staging`.
 
@@ -25,7 +25,7 @@ To build the project for production, run `mvn clean install -Pnpm-build`.
 
 The build artifacts will be stored in the `target/` directory.
 
-##Run
+## Run
 
 Run the following in the command prompt:
 
