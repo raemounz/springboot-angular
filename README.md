@@ -1,8 +1,8 @@
 # Spring Boot and Angular
 
-This is a seed project using <a href="https://start.spring.io" target="_blank">Spring Boot</a> for backend and <a href="https://angular.io" target="_blank">Angular</a> for frontend.
+This is a seed project using [Spring Boot](https://start.spring.io) for backend and [Angular](https://angular.io) for frontend.
 
-The frontend is created using <a href="https://cli.angular.io" target="_blank">Angular CLI</a>.  It provides named build configurations for development, staging,
+The frontend is created using [Angular CLI](https://cli.angular.io).  It provides named build configurations for development, staging,
 and production environments respectively:
 
 - environment.ts
@@ -11,8 +11,8 @@ and production environments respectively:
 
 The project uses the following:
 
-- <a href="https://material.angular.io" target="_blank">Angular Material</a> for material design components
-- <a href="https://github.com/angular/flex-layout" target="_blank">Angular Flex-Layout</a> for responsive UI layout
+- [Angular Material](https://material.angular.io) for material design components
+- [Angular Flex-Layout](https://github.com/angular/flex-layout) for responsive UI layout
 
 ## Preview
 ![Spring Boot and Angular Preview](ui/src/assets/preview.png)
